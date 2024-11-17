@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(117, 117, 117);
+}
+
+/* flexbox nav bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f0f0f0;
+    padding: 10px;
+
+}
+
+/* Card design */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+ }

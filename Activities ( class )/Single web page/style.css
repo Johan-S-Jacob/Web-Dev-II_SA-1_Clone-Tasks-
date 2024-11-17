@@ -1,0 +1,52 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar .logo {
+     color: #fff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-decoration: none;
+  }
+  
+  .navbar .logo span {
+    color: #C06B3E;
+  }
+  
+  .navbar .menu-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  .navbar a:hover {
+    color: #46e89f;
+  }
+
+  .hero-section {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/347348/pexels-photo-347348.jpeg?auto=compress&cs=tinysrgb&w=600/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
